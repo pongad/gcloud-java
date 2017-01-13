@@ -37,7 +37,6 @@ com.google.cloud.logging.spi.v2.testing
 com.google.cloud.logging.testing
 com.google.cloud.monitoring.spi.v3
 com.google.cloud.nio.examples
-com.google.cloud.pubsub
 com.google.cloud.pubsub.spi.v1
 com.google.cloud.pubsub.testing
 com.google.cloud.resourcemanager
