@@ -23,6 +23,7 @@ com.google.cloud.examples.logging
 com.google.cloud.examples.logging.snippets
 com.google.cloud.examples.nio
 com.google.cloud.examples.nio.snippets
+com.google.cloud.examples.pubsub.snippets
 com.google.cloud.examples.resourcemanager
 com.google.cloud.examples.resourcemanager.snippets
 com.google.cloud.examples.storage
