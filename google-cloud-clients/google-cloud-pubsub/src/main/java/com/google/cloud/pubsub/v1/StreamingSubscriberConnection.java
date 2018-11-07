@@ -302,7 +302,7 @@ final class StreamingSubscriberConnection extends AbstractApiService implements 
                         .addAllAckIds(idChunk)
                         .setAckDeadlineSeconds(modack.deadlineExtensionSeconds)
                         .build());
-        ApiFutures.addCallback(future, loggingCallback);
+        ApiFutures.addCallback(future, loggingCallback, MoreExecutors.directExecutor());
       }
     }
 
@@ -314,7 +314,7 @@ final class StreamingSubscriberConnection extends AbstractApiService implements 
                       .setSubscription(subscription)
                       .addAllAckIds(idChunk)
                       .build());
-      ApiFutures.addCallback(future, loggingCallback);
+      ApiFutures.addCallback(future, loggingCallback, MoreExecutors.directExecutor());
     }
   }
 
